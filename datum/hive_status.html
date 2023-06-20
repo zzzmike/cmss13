@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;datum&#x2F;hive_status - byond</title>
+</head>
+<body>
+<header>
+    <a href="index.html">byond</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="datum/hive_status.html#var">Var Details</a> - <a href="datum/hive_status.html#proc">Proc Details</a></header>
+<main>
+<h1>Normal Hive <aside>/<a href="datum.html">datum</a>/<a href="datum/hive_status.html">hive_status</a></aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L236">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 236"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="datum/hive_status.html#var/allow_queen_evolve">allow_queen_evolve</a></th><td>Set to true if you want to prevent evolutions into Queens</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/free_slots">free_slots</a></th><td>Assoc list of free slots available to specific castes</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/hardcore">hardcore</a></th><td>Set to true if you want to prevent bursts and spawns of new xenos. Will also prevent healing if the queen no longer exists</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/hugger_timelock">hugger_timelock</a></th><td>When can huggers join the round</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/latejoin_burrowed">latejoin_burrowed</a></th><td>Set to false if you want to prevent getting burrowed larva from latejoin marines</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/partial_larva">partial_larva</a></th><td>used by /datum/hive_status/proc/increase_larva_after_burst() to support non-integer increases to larva</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/playable_hugger_limit">playable_hugger_limit</a></th><td>How many huggers can the hive support</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/tier_2_xenos">tier_2_xenos</a></th><td>list of living tier2 xenos</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/tier_3_xenos">tier_3_xenos</a></th><td>list of living tier3 xenos</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/totalXenos">totalXenos</a></th><td>list of living xenos</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/total_dead_xenos">total_dead_xenos</a></th><td>list of previously living xenos (hardrefs currently)</td></tr>
+            <tr><th><a href="datum/hive_status.html#var/used_free_slots">used_free_slots</a></th><td>Assoc list of free slots currently used by specific castes</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="datum/hive_status.html#proc/increase_larva_after_burst">increase_larva_after_burst</a></th><td>Called by /obj/item/alien_embryo when a host is bursting to determine extra larva per burst</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/allow_queen_evolve"><aside class="declaration">var </aside>allow_queen_evolve
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L297">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 297"/></a></h3>
+        <p>Set to true if you want to prevent evolutions into Queens</p><h3 id="var/free_slots"><aside class="declaration">var </aside>free_slots
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L261">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 261"/></a></h3>
+        <p>Assoc list of free slots available to specific castes</p><h3 id="var/hardcore"><aside class="declaration">var </aside>hardcore
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L299">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 299"/></a></h3>
+        <p>Set to true if you want to prevent bursts and spawns of new xenos. Will also prevent healing if the queen no longer exists</p><h3 id="var/hugger_timelock"><aside class="declaration">var </aside>hugger_timelock
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L346">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 346"/></a></h3>
+        <p>When can huggers join the round</p><h3 id="var/latejoin_burrowed"><aside class="declaration">var </aside>latejoin_burrowed
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L301">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 301"/></a></h3>
+        <p>Set to false if you want to prevent getting burrowed larva from latejoin marines</p><h3 id="var/partial_larva"><aside class="declaration">var </aside>partial_larva
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L259">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 259"/></a></h3>
+        <p>used by /datum/hive_status/proc/increase_larva_after_burst() to support non-integer increases to larva</p><h3 id="var/playable_hugger_limit"><aside class="declaration">var </aside>playable_hugger_limit
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L348">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 348"/></a></h3>
+        <p>How many huggers can the hive support</p><h3 id="var/tier_2_xenos"><aside class="declaration">var </aside>tier_2_xenos
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L269">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 269"/></a></h3>
+        <p>list of living tier2 xenos</p><h3 id="var/tier_3_xenos"><aside class="declaration">var </aside>tier_3_xenos
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L271">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 271"/></a></h3>
+        <p>list of living tier3 xenos</p><h3 id="var/totalXenos"><aside class="declaration">var </aside>totalXenos
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L273">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 273"/></a></h3>
+        <p>list of living xenos</p><h3 id="var/total_dead_xenos"><aside class="declaration">var </aside>total_dead_xenos
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L275">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 275"/></a></h3>
+        <p>list of previously living xenos (hardrefs currently)</p><h3 id="var/used_free_slots"><aside class="declaration">var </aside>used_free_slots
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L267">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 267"/></a></h3>
+        <p>Assoc list of free slots currently used by specific castes</p><h2 id="proc">Proc Details</h2><h3 id="proc/increase_larva_after_burst"><aside class="declaration">proc </aside>increase_larva_after_burst<aside>() 
+        
+    
+            <a href="https://github.com/cmss13-devs/cmss13/blob/f2471a869df29217d88a8106850ba107ff0020c8/code/modules/mob/living/carbon/xenomorph/xeno_defines.dm#L1027">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;xenomorph&#x2F;xeno_defines.dm 1027"/></a></aside>
+        </h3>
+        <p>Called by /obj/item/alien_embryo when a host is bursting to determine extra larva per burst</p></main>
+<footer>
+    colonialmarines.dme
+    <a href="https://github.com/cmss13-devs/cmss13/tree/f2471a869df29217d88a8106850ba107ff0020c8">f2471a8</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.1</a></footer>
+</body>
+</html>
